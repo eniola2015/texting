@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My First Online Project</title>
+
+  <style>
+    body {
+      font-family: Arial;
+      text-align: center;
+      background-color: lightblue;
+      padding-top: 100px;
+    }
+
+    h1 {
+      color: darkblue;
+    }
+
+    button {
+      padding: 15px 25px;
+      font-size: 18px;
+      border: none;
+      border-radius: 10px;
+      background-color: purple;
+      color: white;
+      cursor: pointer;
+    }
+  </style>
+</head>
+
+<body>
+
+  <h1 id="title">My First GitHub Website</h1>
+
+  <p>This website was created during JavaScript class.</p>
+
+  <button onclick="showMessage()">Click Me</button>
+
+  <script>
+    function showMessage() {
+      document.getElementById("title").innerHTML =
+        "My Website Is Now Online!";
+    }
+  </script>
+
+</body>
+</html>
